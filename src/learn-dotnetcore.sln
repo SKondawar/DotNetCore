@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{21DB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{EFC078C3-54A7-486B-9FFD-3F9AA08435DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.API", "Services\Catalog\Test.API\Test.API.csproj", "{82420E6F-7FFC-4245-9FC5-C4584288FB70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{EFC078C3-54A7-486B-9FFD-3F9AA08435DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFC078C3-54A7-486B-9FFD-3F9AA08435DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFC078C3-54A7-486B-9FFD-3F9AA08435DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82420E6F-7FFC-4245-9FC5-C4584288FB70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82420E6F-7FFC-4245-9FC5-C4584288FB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82420E6F-7FFC-4245-9FC5-C4584288FB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82420E6F-7FFC-4245-9FC5-C4584288FB70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +32,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{21DBE71D-233C-4E2D-B06B-AA4912989226} = {FC6130C9-35A3-4D75-BB4D-CC25A7CAF108}
 		{EFC078C3-54A7-486B-9FFD-3F9AA08435DD} = {21DBE71D-233C-4E2D-B06B-AA4912989226}
+		{82420E6F-7FFC-4245-9FC5-C4584288FB70} = {21DBE71D-233C-4E2D-B06B-AA4912989226}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {972940B5-428D-4F00-9F6F-41BF3FA47766}
